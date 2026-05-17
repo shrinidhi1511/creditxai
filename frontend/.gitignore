@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Database
+*.db
+
+# ML artifacts
+*.pkl
+
+# Python env
+.env
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+node_modules
+
+backend/venv/
+venv/
