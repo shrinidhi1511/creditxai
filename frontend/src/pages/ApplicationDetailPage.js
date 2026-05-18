@@ -199,7 +199,7 @@ export default function ApplicationDetailPage() {
       .then(({ data }) => setApp(data))
       .catch(() => { toast.error("Application not found"); navigate("/dashboard"); })
       .finally(() => setLoading(false));
-  }, [id]);
+   }, [id, navigate]);
 
   if (loading) {
     return (
